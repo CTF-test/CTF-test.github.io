@@ -67,3 +67,13 @@ function verificationReversed() {
 		alert("Ce n'est pas le bon flag");
 	}
 }
+
+function verificationInspecteur() {
+	var reponse = document.getElementById("inspecteur").value;
+	if (reponse == "1NSP3CTR3"){
+		alert("C'est le bon flag");
+	}
+	else{
+		alert("Ce n'est pas le bon flag");
+	}
+}
