@@ -77,3 +77,13 @@ function verificationInspecteur() {
 		alert("Ce n'est pas le bon flag");
 	}
 }
+
+function verificationMammifere() {
+	var reponse = document.getElementById("mammifere").value;
+	if (reponse == "odobenus rosmarus" || reponse == "odobenusrosmarus" || reponse == "odobenus_rosmarus"){
+		alert("C'est le bon flag");
+	}
+	else{
+		alert("Ce n'est pas le bon flag");
+	}
+}
