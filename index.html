@@ -2,7 +2,59 @@
 	<head>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
 	</head>
-	<body>
+	<body id="main">
+		<div>
+			<nav class="navbar navbar-dark bg-dark">
+			  <div class="container-fluid">
+				<a class="navbar-brand" >CTF</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			  </div>
+			</nav>
+		</div>
+		<div>
+			<h1>Reverse engeniring</h1>
+
+			<h1>Cryptographie</h1>
+				<div class="flex">
+				
+				</div>
+			<h1>Steganographie</h1>
+				<p>
+				  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+					Oeil vif
+				  </a>
+				</p>
+				<div class="collapse" id="collapseExample">
+				  <div class="card card-body">
+					<div class="cardTitle">
+						Oeil vif<br>
+						20 points
+					</div>
+						Ne vous fiez pas à l'oeil vif du cabillaud mort. Les images ne sont pas toujours a regarder.
+					
+					<div class="file">
+						<a href="file/western_good.jpg" download>western_good.jpg</a>
+					</div>
+					<div class="input">
+						<label for="oeil">Réponse :</label><br>
+						<input id="oeil" type="text">
+						<input type="submit" value="Valider" onclick="vérificationOeil()" id="oeil_validation">
+					</div>
+				  </div>
+				</div>
+			<h1>Web Exploitation</h1>
+				<div class="flex">
+				
+				</div>
+			<h1>Miscellaneous</h1>
+				<div class="flex">
+				
+				</div>
+		</div>
 	</body>
 </html>
