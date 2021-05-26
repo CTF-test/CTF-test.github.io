@@ -57,3 +57,13 @@ function verificationTooMuchOnes() {
 		alert("Ce n'est pas le bon flag");
 	}
 }
+
+function verificationReversed() {
+	var reponse = document.getElementById("reversed").value;
+	if (reponse == "IT_better_than_market"){
+		alert("C'est le bon flag");
+	}
+	else{
+		alert("Ce n'est pas le bon flag");
+	}
+}
