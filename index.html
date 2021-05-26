@@ -126,29 +126,53 @@
 				  </div>
 				</div>
 			<h1>Divers</h1>
-				<p>
-					<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseBlind1" role="button" aria-expanded="false" aria-controls="collapseExample">
-					Blind #1
-					</a>
-				</p>
-			  	<div class="collapse" id="collapseBlind1">
-					<div class="card card-body">
+			<p>
+				<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseBlind1" role="button" aria-expanded="false" aria-controls="collapseExample">
+				Blind #1
+				</a>
+			</p>
+			<div class="collapse" id="collapseBlind1">
+				<div class="card card-body">
 					<div class="cardTitle">
 						Blind #1<br>
 						10 points
 					</div>
-					  Un ami aveugle m'a envoyé ce fichier texte. Je n'arrive pas à comprendre ce qu'il veut me dire avec celui-ci. Pourriez-vous m'aider à éclaircir tout ça ?
-				  
-				  <div class="file">
-					  <a href="file/blind.txt" download>blind.txt</a>
-				  </div>
-				  <div class="input">
-					  <label for="blind1">Réponse :</label><br>
-					  <input id="blind1" type="text">
-					  <input type="submit" value="Valider" onclick="verificationBlind1()" id="blind1_validation">
-				  </div>
+					Un ami aveugle m'a envoyé ce fichier texte. Je n'arrive pas à comprendre ce qu'il veut me dire avec celui-ci. Pourriez-vous m'aider à éclaircir tout ça ?
+				
+					<div class="file">
+						<a href="file/blind.txt" download>blind.txt</a>
+					</div>
+					<div class="input">
+						<label for="blind1">Réponse :</label><br>
+						<input id="blind1" type="text">
+						<input type="submit" value="Valider" onclick="verificationBlind1()" id="blind1_validation">
+					</div>
 				</div>
-			  </div>
+			</div>
+
+			<p>
+				<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseTooMuchOnes" role="button" aria-expanded="false" aria-controls="collapseExample">
+					Too much Ones
+				</a>
+			</p>
+			<div class="collapse" id="collapseTooMuchOnes">
+				<div class="card card-body">
+					<div class="cardTitle">
+						Too Much Ones<br>
+						10 points
+					</div>
+					Ce fichier possède beaucoup trop de 1 à mon goût... Pourriez-vous trouver le secret dissumulé parmis tous ces 1 ?
+				
+					<div class="file">
+						<a href="file/toomuchones.txt" download>toomuchones.txt</a>
+					</div>
+					<div class="input">
+						<label for="toomuchones">Réponse :</label><br>
+						<input id="toomuchones" type="text">
+						<input type="submit" value="Valider" onclick="verificationTooMuchOnes()" id="toomuchones_validation">
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

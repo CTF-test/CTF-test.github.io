@@ -47,3 +47,13 @@ function verificationBlind1() {
 		alert("Ce n'est pas le bon flag");
 	}
 }
+
+function verificationTooMuchOnes() {
+	var reponse = document.getElementById("toomuchones").value;
+	if (reponse == "loi_d'ohm"){
+		alert("C'est le bon flag");
+	}
+	else{
+		alert("Ce n'est pas le bon flag");
+	}
+}
