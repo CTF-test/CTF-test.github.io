@@ -37,3 +37,13 @@ function verificationRar3(){
 		alert("Ce n'est pas le bon flag");
 	}
 }
+
+function verificationBlind1() {
+	var reponse = document.getElementById("blind1").value;
+	if (reponse == "ephec_is_the_best_school"){
+		alert("C'est le bon flag");
+	}
+	else{
+		alert("Ce n'est pas le bon flag");
+	}
+}
