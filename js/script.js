@@ -101,3 +101,13 @@ function verificationWeb1() {
 function verificationWeb2() {
 	alert("+10 points");
 }
+
+function verificationAuthentification() {
+	var reponse = document.getElementById("authentification").value;
+	if (reponse == "dell_optiplex"){
+		alert("C'est le bon flag");
+	}
+	else{
+		alert("Ce n'est pas le bon flag");
+	}
+}
