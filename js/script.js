@@ -87,3 +87,17 @@ function verificationMammifere() {
 		alert("Ce n'est pas le bon flag");
 	}
 }
+
+function verificationWeb1() {
+	var reponse = document.getElementById("web1").value;
+	if (reponse == "WEB1FLAG"){
+		alert("C'est le bon flag");
+	}
+	else{
+		alert("Ce n'est pas le bon flag");
+	}
+}
+
+function verificationWeb2() {
+	alert("+10 points");
+}
